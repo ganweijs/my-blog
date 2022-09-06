@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress',
-  description: 'this is ganwei‘s blog',
+  title: 'blog',
+  description: '',
   theme: 'reco',
   base: '/my-blog/',
   locales: {
@@ -20,14 +20,14 @@ module.exports = {
             // }
         ],
         sidebar: [
-            {
-                title: '第一章',
-                path: '/',
-                collapsable: true, // 不折叠
-                children: [
-                    { title: "js", path: "/" }
-                ]
-            }
+            // {
+            //     title: '第一章',
+            //     path: '/',
+            //     collapsable: true, // 不折叠
+            //     children: [
+            //         { title: "js", path: "/" }
+            //     ]
+            // }
         ],
         subSidebar: 'auto'
     }   
